@@ -14,4 +14,4 @@
     - Visual Studio Code 1.41
 
 #### 4. 실행코드
-[라이브주소]
+[라이브주소](https://lovelylily1028.github.io/Youngmable/)
