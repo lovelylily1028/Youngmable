@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netmarble 페이지 만들기</title>
+    <!-- <title>넷마블 | 메인 - 즐거운 게임세상 넷마블!</title> -->
+    <meta
+      name="description"
+      content="Let's create the same Netmarble homepage."
+    />
+    <meta name="author" content="LovelyLily" />
+    <link rel="icon" type="image/x-icon" href="imgs/netmarble_favicon.ico" />
+    <script
+      src="https://kit.fontawesome.com/28a22aed28.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="viewport">
+      <!-- Navbar -->
+      <nav id="navbar">
+        <div class="navbar__logo">
+          <img src="imgs/netmarble_logo.png" alt="#" />
+        </div>
+        <div class="login__box">
+          <div class="login__box_link">
+            <button class="login__box_mark">
+              <i class="fa-solid fa-user"></i>
+            </button>
+            <span>로그인</span>
+          </div>
+          <div class="login__box_join">
+            <em>회원가입</em>
+            <span>/</span>
+            <em>보안접속</em> <strong> ON</strong>
+          </div>
+        </div>
+        <div class="about__menu">
+          <ul>
+            <li>
+              <div class="menu">
+                <div class="menu_icon">
+                  <i class="fa-solid fa-users"></i>
+                </div>
+                <div class="menu_title">고객센터</div>
+              </div>
+            </li>
+            <li>
+              <div class="menu">
+                <div class="menu_icon">
+                  <i class="fa-sharp fa-solid fa-desktop"></i>
+                </div>
+                <div class="menu_title">넷마블 PC방</div>
+                <div class="menu_off">
+                  <img src="imgs/off.png" alt="" />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="menu">
+                <div class="menu_icon">
+                  <i class="fa-solid fa-gift"></i>
+                </div>
+                <div class="menu_title">이벤트</div>
+              </div>
+            </li>
+            <li>
+              <div class="menu">
+                <div class="menu_icon">
+                  <i class="fa-solid fa-hand-holding-heart"></i>
+                </div>
+                <div class="menu_title">채널 넷마블</div>
+              </div>
+            </li>
+            <li>
+              <div class="menu">
+                <div class="menu_icon">
+                  <i class="fa-sharp fa-solid fa-store"></i>
+                </div>
+                <div class="menu_title">넷마블 스토어</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Slide -->
+      <div id="slidebox">
+        <div class="slidebox">
+        <input type="radio" name="slide" id="slide01" checked>
+        <input type="radio" name="slide" id="slide02">
+        <input type="radio" name="slide" id="slide03">
+        <input type="radio" name="slide" id="slide04">
+        <input type="radio" name="slide" id="slide05">
+        <ul class="slidelist">
+          <li class="slideitem">
+            <div>
+              <label for="slide05" class="left"></label>
+              <label for="slide02" class="right"></label>
+              <a><img src="imgs/slide/2worlds.jpg" alt=""> </a>
+            </div>
+          </li>
+          <li class="slideitem">
+            <div>
+              <label for="slide01" class="left"></label>
+              <label for="slide03" class="right"></label>
+              <a><img src="imgs/slide/a3_branding_top.jpg" alt=""> </a>
+            </div>
+          </li>
+          <li class="slideitem">
+            <div>
+              <label for="slide02" class="left"></label>
+              <label for="slide04" class="right"></label>
+              <a><img src="imgs/slide/paragon_potal_top.jpg" alt=""> </a>
+            </div>
+            
+          </li>
+          <li class="slideitem">
+            <div>
+              <label for="slide03" class="left"></label>
+              <label for="slide05" class="right"></label>
+              <a><img src="imgs/slide/skr_branding_top.jpg" alt=""> </a>
+            </div>            
+          </li>
+          <li class="slideitem">
+            <div>
+              <label for="slide04" class="left"></label>
+              <label for="slide01" class="right"></label>
+              <a><img src="imgs/slide/zempot_branding_poker_01.png" alt=""> </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      </div>
+
+      <!-- Games -->
+      <section id="contents__games">
+        <div class="contents__games">
+          <div class="mobile__wrap">
+            <div class="mobile__title">
+              <h2>Mobile Games</h2>
+              <a class="mobile__linkmore">
+                전체보기
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="mobile__list">
+              <div class="mobile__list_item">
+                <div class="list_item_img">
+                  <img
+                    class="list_item_game_img"
+                    src="imgs/mobileGame/zempot_branding_poker_01.jpeg"
+                    alt=""
+                  />
+                  <img class="bi" src="imgs/mobileGame/potal_BI.png" alt="">
+                  <div class="dark_wrap"></div>
+                </div>
+                <div class="list_item_description">
+                  <img
+                    class="mini__logo"
+                    src="imgs/mobileGame/APPICO.jpg"
+                    alt="샬롯의 테이블"
+                  />
+                  <div class="description-bubble">
+                    <strong>샬롯의 테이블</strong>
+                  </br>
+                    <span>퍼즐</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mobile__list_item">
+                <div class="list_item_img">
+                  <img
+                    class="list_item_game_img"
+                    src="imgs/mobileGame/title.jpg"
+                    alt=""
+                  />
+                  <img class="bi" src="imgs/mobileGame/BI.png" alt="">
+                  <div class="dark_wrap"></div>
+                </div>
+                <div class="list_item_description">
+                  <img
+                    class="mini__logo"
+                    src="imgs/mobileGame/iOS_152.png"
+                    alt="세븐나이츠 레볼루션"
+                  />
+                  <div class="description-bubble">
+                    <strong>세븐나이츠 레볼루션</strong>
+                  </br>
+                    <span>MMORPG</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mobile__list_item">
+                <div class="list_item_img">
+                  <img
+                    class="list_item_game_img"
+                    src="imgs/mobileGame/1_220613_pc_list.jpg"
+                    alt=""
+                  />
+                  <img class="bi" src="imgs/mobileGame/220613_pc_bi.png" alt="">
+                  <div class="dark_wrap"></div>
+                </div>
+                <div class="list_item_description">
+                  <img
+                    class="mini__logo"
+                    src="imgs/mobileGame/AOS_512x512.png"
+                    alt="머지 쿵야 아일랜드"
+                  />
+                  <div class="description-bubble">
+                    <strong>머지 쿵야 아일랜드</strong>
+                  </br>
+                    <span>캐주얼</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mobile__list_item">
+                <div class="list_item_img">
+                  <img
+                    class="list_item_game_img"
+                    src="imgs/mobileGame/1.jpg"
+                    alt=""
+                  />
+                  <img class="bi" src="imgs/mobileGame/bi (1).png" alt="">
+                  <div class="dark_wrap"></div>
+                </div>
+                <div class="list_item_description">
+                  <img
+                    class="mini__logo"
+                    src="imgs/mobileGame/Android_Market_512.png"
+                    alt="제2의 나라: Cross Worlds"
+                  />
+                  <div class="description-bubble">
+                    <strong>제2의 나라: Cross Worlds</strong>
+                  </br>
+                    <span>MMORPG</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mobile__list_item">
+                <div class="list_item_img">
+                  <img
+                    class="list_item_game_img"
+                    src="imgs/mobileGame/bnsmkr.jpg"
+                    alt=""
+                  />
+                  <img class="bi" src="imgs/mobileGame/bnsmkr.png" alt="">
+                  <div class="dark_wrap"></div>
+                </div>
+                <div class="list_item_description">
+                  <img
+                    class="mini__logo"
+                    src="imgs/mobileGame/bns_appicon.png"
+                    alt="블레이드&소울 레볼루션"
+                  />
+                  <div class="description-bubble">
+                    <strong>블레이드&소울 레볼루션</strong>
+                  </br>
+                    <span>MMORPG</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mobile__list_item">
+                <div class="list_item_img">
+                  <img
+                    class="list_item_game_img"
+                    src="imgs/mobileGame/lineageII.jpg"
+                    alt=""
+                  />
+                  <img class="bi" src="imgs/mobileGame/lineageII.png" alt="">
+                  <div class="dark_wrap"></div>
+                </div>
+                <div class="list_item_description">
+                  <img
+                    class="mini__logo"
+                    src="imgs/mobileGame/180_l2.jpg"
+                    alt="리니지2 레볼루션"
+                  />
+                  <div class="description-bubble">
+                    <strong>리니지2 레볼루션</strong>
+                  </br>
+                    <span>MMORPG</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="mobile__list_item">
+                <div class="list_item_img">
+                  <img
+                    class="list_item_game_img"
+                    src="imgs/mobileGame/survival.jpg"
+                    alt=""
+                  />
+                  <img class="bi" src="imgs/mobileGame/survival.png" alt="">
+                  <div class="dark_wrap"></div>
+                </div>
+                <div class="list_item_description">
+                  <img
+                    class="mini__logo"
+                    src="imgs/mobileGame/180_191022_A3_512.jpg"
+                    alt="A3: 스틸얼라이브"
+                  />
+                  <div class="description-bubble">
+                    <strong>A3: 스틸얼라이브</strong>
+                  </br>
+                    <span>MMORPG</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mobile__list_item">
+                <div class="list_item_img">
+                  <img
+                    class="list_item_game_img"
+                    src="imgs/mobileGame/nanakr.jpg"
+                    alt=""
+                  />
+                  <img class="bi" src="imgs/mobileGame/nanakr.png" alt="">
+                  <div class="dark_wrap"></div>
+                </div>
+                <div class="list_item_description">
+                  <img
+                    class="mini__logo"
+                    src="imgs/mobileGame/7_Android_Market_app.png"
+                    alt="일곱 개의 대죄"
+                  />
+                  <div class="description-bubble">
+                    <strong>일곱 개의 대죄</strong>
+                  </br>
+                    <span>RPG</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="pc__wrap">
+            <div class="pc__title">
+            <h2>PC Games</h2>
+          </div>
+          <div class="pc__list">
+            <div class="pc__list_item">
+              <img class="pc__list_img"src="/imgs/mobileGame/paragon_potal_list.jpg" alt="">
+              <div class="item__name">
+                <h3>파라곤 </br> 디 오버프라임</h3> 
+                <strong>FPS</strong>             
+              </div>
+            </div>
+            
+            <div class="pc__list_item">
+              <img class="pc__list_img" src="/imgs/pcGame/p-1.png" alt="">
+              <div class="item__name">
+                <h3>마구마구</h3> 
+                <strong>스포츠/FPS</strong>             
+              </div>
+            </div>
+
+            <div class="pc__list_item">
+              <img class="pc__list_img" src="/imgs/pcGame/p-2.png" alt="">
+              <div class="item__name">
+                <h3>모두의 마블</h3> 
+                <strong>보드/캐쥬얼</strong>             
+              </div>
+            </div>
+
+            <div class="pc__list_item">
+              <img class="pc__list_img" src="/imgs/pcGame/p-3.png" alt="">
+              <div class="item__name">
+                <h3>클럽엠스타</h3> 
+                <strong>리듬액션</strong>             
+              </div>
+            </div>
+
+            <div class="pc__list_item">
+              <img class="pc__list_img" src="/imgs/pcGame/p-6.png" alt="">
+              <div class="item__name">
+                <h3>대항해시대</h3> 
+                <strong>RPG</strong>             
+              </div>
+            </div>
+
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bottom Banner -->
+      <section class="contents__banner">
+        <div class="banner">
+          <div class="banner_imgbox">
+          <img class="banner_img" src="imgs/pcGame/zbta1672103424442.jpg" alt="">
+           </div>
+          <div class="moreGames">
+            <h2>전체 PC게임</h2>
+            <ul class="moreGames__ul">
+              <li>파라곤: 디 오버 프라임</li>
+              <li>마구마구</li>
+              <li>모두의마블</li>
+              <li>클럽엠스타</li>
+              <li>스페셜포스2</li>
+              <li>상하이</li>
+              <li>사천성</li>
+              <li>바둑</li>
+              <li>캐릭챗</li>
+              <li>대항해시대</li>
+              <li>캐치마인드</li>
+              <li>배틀가로세로+</li>
+              <li>아바타</li>
+              <li>파워알까기</li>
+              <li>윷놀이</li>
+              <li>리치마블</li>
+              <li>야채부락리</li>
+              <li>파워쿵쿵따</li>
+              <li>장기</li>
+              <li>틀린그림찾기</li>
+              <li>어썰트기어</li>
+              <li>오목</li>
+              <li>당구/포켓볼</li>
+            </ul>
+          </div>
+        </div>
+        <div class="contact__banner">
+          <i class="fa-sharp fa-solid fa-bell"></i>
+          <a href="">[쿵야 캐치마인드]서브스 종료 및 환불 안내</a>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <div class="footer">
+        <div class="footer__textbox">
+          <a href="">
+            <img src="imgs/sp-main.png" alt="">
+          </a>
+          <div class="footer__cp_add">
+            넷마블(주) 사업자번호 : 105-87-64746 통신판매업신고번호 : 제 2014-서울구로-1028호 각자 대표집행임원: 권영식, 도기욱 호스팅서비스 사업자 : 넷마블(주)</br>
+            서울특별시 구로구 디지털로26길 38, G-Tower 넷마블 | PC고객센터:1588-5180 / 모바일고객센터:1588-3995 / 제2의나라 고객센터:1670-0359 / 블레이드&소울 레볼루션 고객센터:1670-1182 / 리니지2 레볼루션 고객센터:1670-8212 / Fax:02-6375-1790
+          </div>
+          <div class="footer__cp_right">
+            Copyright © Netmarble Corp. All Rights Reserved.
+          </div>
+          <div class="footer__bx_policy">
+            <a href="">회사소개</a>
+            <span>|</span>
+            <a href="">광고/제휴문의</a>
+            <span>|</span>
+            <a href="">약관보기</a>
+            <span>|</span>
+            <a href="">위치정보이용약관</a>
+            <span>|</span>
+            <a href="">개인정보처리방침</a>
+            <span>|</span>
+            <a href="">청소년보호정책</a>
+            <span>|</span>
+            <a href="">전자우편</a>
+            <span>|</span>
+            <a href="">사업자정보공개사이트</a>
+            <span>|</span>
+            <a href="">사이트맵</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
